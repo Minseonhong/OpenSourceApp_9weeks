@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "OpenSourceApp_9weeks"
+include ':mission10_3'
+include ':project10_1'
+include ':mission10_1'
+include ':intent'
+include ':project10_3'
+include ':project10_2'
+include ':mission10_2'
